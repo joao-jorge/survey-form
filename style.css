@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#main {
+    width: 45%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 4%;
+}
+
+#title, #description {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#main p, label {
+    color: white;
+    padding: 4px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="number"], select{
+    width: 100%;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    color: gray;
+}
+
+
+#survey-form p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
