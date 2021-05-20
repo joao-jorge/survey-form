@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script>
     <title>Survey Form</title>
 </head>
 <body>
     <div>
-        <h1>freeCodeCapm Survey Form</h1>
-        <p>Thank you for taking the time to the platform</p>
+        <h1 id="title">freeCodeCapm Survey Form</h1>
+        <p id="description">Thank you for taking the time to the platform</p>
         
-        <form action="" method="post">
+        <form id="survey-form" action="" method="post">
             <p>Name</p>
-            <input type="text" name="" id="">
+            <input type="text" name="" id="name-label" placeholder="Insert your name" required>
             <p>E-mail</p>
-            <input type="email" name="" id="">
+            <input type="email" name="" id="email-label" placeholder="Insert your email" required>
             <p>Age(opcional)</p>
-            <input type="number" name="" id="">
+            <input type="number" name="" id="" min="15" max="90" id="number-label" placeholder="Insert your age">
             
             <p>Which option best describes your current role?</p>
             <input type="text"></input>
