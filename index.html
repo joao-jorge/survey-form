@@ -19,8 +19,43 @@
             <input type="email" name="" id="">
             <p>Age(opcional)</p>
             <input type="number" name="" id="">
+            
             <p>Which option best describes your current role?</p>
-            <input type="text">
+            <input type="text"></input>
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" name="chose" value="definitely" id="definitely"> 
+            <label for="definitely">Definitely</label><br>
+            <input type="radio" name="chose" id="Maybe" value="maybe"> 
+            <label for="maybe">Maybe</label><br>
+            <input type="radio" name="chose" id="notsure" value="notsure"> 
+            <label for="notsure">Not sure</label><br>
+            
+            <p>What is your favorite feature of freeCodeCamp?</p>
+            <label for="options">Select an option</label>
+            <select name="" id="options">
+                <option value="front-end projects">Challenges</option>
+                <option value="back end projects">Projects</option>
+                <option value="data visualization">Community</option>
+                <option value="challenges">Open Source</option>
+            </select>
+
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" name="front" id="front" value="Front end projects">
+            <label for="front"> Front end projects</label><br>
+            <input type="checkbox" name="back" id="back" value="Back end projects">
+            <label for="back">Back end projects</label><br>
+            <input type="checkbox" name="challenge" id="challenges" value="challenges">
+            <label for="challenges">Challenges</label><br>
+            <input type="checkbox" name="video" id="videos" value="videos">
+            <label for="videos">Videos</label><br>
+            <input type="checkbox" name="wiki" id="wiki" value="wiki">
+            <label for="wiki">Wiki</label><br>
+            <input type="checkbox" name="forum" id="forums" value="forum">
+            <label for="forums">Forum</label><br>
+
+            <p>Any comments or suggestions?</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button type="submit">Submit</button>
         </form>
     
     </div>
